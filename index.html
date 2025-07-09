@@ -385,6 +385,82 @@
                     соглашение</a></div>
         </div>
 
+        <!-- всплывающий popup calling-->
+        <div class="footer__popup popup-footer">
+            <div class="popup-footer__body">
+                <div class="popup-footer__contant">
+
+                    <!-- form popup -->
+                    <div class="popup-footer__form form-footer">
+
+                        <div class="form-footer__top">
+                            <p class="form-footer__title">Заказать звонок</p>
+                            <button type="button" class="popup-footer__button"><img src="./img/footer/close.svg"
+                                    alt="close"></button>
+                        </div>
+
+                        <form id="footer-form" class="form-footer__form" method="POST" action="#"
+                            enctype="multipart/form-data">
+
+                            <div class="form-footer__list">
+
+                                <div class="form-footer__item">
+                                    <!-- <label for="name">Имя:</label><br> -->
+                                    <input type="text" name="name" id="form-footer-name" data-error="Ошибка"
+                                        class="form-footer__name" placeholder="Ваше имя" value="" autocomplete="off"
+                                        required>
+
+                                </div>
+
+                                <div class="form-footer__item">
+                                    <!-- <label for="tel">Телефон:</label><br> -->
+                                    <input type="tel" name="tel" id="form-footer-tel" data-error="Ошибка"
+                                        class="form-footer__tel" placeholder="+7 (___) ___-__-__" value=""
+                                        autocomplete="off" required>
+                                </div>
+
+                                <div class="form-footer__item">
+                                    <select name="time" class="form-footer__select">
+                                        <option value="">Удобное время для звонка</option>
+                                        <option value="9:00">9:00</option>
+                                        <option value="10:00">10:00</option>
+                                        <option value="11:00">11:00</option>
+                                        <option value="12:00">12:00</option>
+                                        <option value="13:00">13:00</option>
+                                        <option value="14:00">14:00</option>
+                                        <option value="15:00">15:00</option>
+                                        <option value="16:00">16:00</option>
+                                        <option value="17:00">17:00</option>
+
+                                    </select>
+                                </div>
+
+                                <div class="form-footer__item">
+                                    <label class="form-footer__person">
+                                        <input type="checkbox">
+                                        Я&#160;согласен (а) с&#160;обработкой персональных данных в&#160;соответствии с&#160;<a href="#">
+                                            политикой конфиденциальности.</a>
+                                    </label>
+                                </div>
+
+                                <button type="submit" class="form-footer__item form-footer__button button"
+                                    aria-label="кнопка отправить">Отправить заявку</button>
+
+                            </div>
+
+                        </form>
+                    </div>
+
+                    <div class="popup-footer__inform"><img src="./img/footer/star.svg" alt="star">
+                        <p class="popup-footer__text">&#8212;&#160;обязательно
+                            к&#160;заполнению</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
     </div>
 </footer>
   </div>
